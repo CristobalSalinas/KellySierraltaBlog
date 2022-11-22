@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/PostDetails.astro
 title: Prueba de contenido
 description: Descripcion hola hola
 author: Cristobal Salinas
