@@ -21,27 +21,27 @@ export const SOCIALS: SocialsObject = [
   {
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
-    active: true,
+    active: false,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
-    active: false,
+    active: true,
   },
   {
     name: "Linkedin",
     href: "https://github.com/satnaing/astro-paper",
-    active: false,
+    active: true,
   },
   {
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
-    active: false,
+    active: true,
   },
   {
     name: "Twitter",
