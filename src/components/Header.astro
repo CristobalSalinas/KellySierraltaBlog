@@ -7,15 +7,14 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search" | "acerca-de";
+  activeNav?: "posts" | "tags" | "about" | "buscar" | "acerca-de";
 }
 
 const { activeNav } = Astro.props;
 ---
 
 <header>
-  <a id="skip-to-content" href="#main-content">Skip to content</a>
-  {activeNav}
+  <a id="skip-to-content" href="#main-content">Saltar contenido</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class="logo">
@@ -58,12 +57,12 @@ const { activeNav } = Astro.props;
       </ul>
       <div class="button-wrapper">
         <LinkButton
-          href="/search"
+          href="/buscar"
           className={`focus-outline p-1 ${
-            activeNav === "search" ? "active" : ""
+            activeNav === "buscar" ? "active" : ""
           }`}
-          ariaLabel="search"
-          title="Search"
+          ariaLabel="buscar"
+          title="Buscar"
         >
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
