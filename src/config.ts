@@ -1,13 +1,13 @@
 import type { SocialsObject } from "./types";
 
 export const SITE = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "default-og.png",
-  lightAndDarkMode: true,
-  postPerPage: 3,
+  website: "https://kellysierralta.netlify.app/", // Url del sitio
+  author: "Kelly Sierralta", // Autora del sitio
+  desc: "Blog principal de Kelly Sierralta", // Descripcion para que lo vea el SEO
+  title: "Kelly Sierralta", // Titulo para el boton principal del navbar
+  ogImage: "default-og.png", // Imagen principal de la pagina
+  lightAndDarkMode: true, // 2 modos entre blanco y oscuro
+  postPerPage: 5, // Items por post
 };
 
 export const LOGO_IMAGE = {
@@ -21,12 +21,12 @@ export const SOCIALS: SocialsObject = [
   {
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
-    active: true,
+    active: false,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
@@ -41,7 +41,7 @@ export const SOCIALS: SocialsObject = [
   {
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
-    active: false,
+    active: true,
   },
   {
     name: "Twitter",
